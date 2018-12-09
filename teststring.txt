@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 My name is ABHI :). Learning the back-portion :(. Obama's nephew. @random. http://www.abc.com
+=======
+My name is Abhishek. I have no clue. Learning the back-portion that I never cared for. Obama's nephew. @random
+>>>>>>> 91bd14064d057df2876bd339d3f78b5735a1f222
 =======
 My name is Abhishek. I have no clue. Learning the back-portion that I never cared for. Obama's nephew. @random
 >>>>>>> 91bd14064d057df2876bd339d3f78b5735a1f222
