@@ -85,8 +85,8 @@ def liwc_features(ids_, V, embed_dim, init_scale=0.001):
     ### HARDWIRE IN THE LIWC TYPE.  DEFAULT (USED FOR TRAINING) IS ISOT; BUT CAN SWITCH TO LIAR FOR SPECIAL EVAL CELL!!!
     #############################
     
-    #liwc_type = 'isot'   # default
-    liwc_type = 'liar'  # NOTE NEED TO RELOAD MODEL BEFORE EVALUATING WITH A DIFFERENCE LIWC EMBEDDING
+    liwc_type = 'isot'   # default
+    #liwc_type = 'liar'  # NOTE NEED TO RELOAD MODEL BEFORE EVALUATING WITH A DIFFERENCE LIWC EMBEDDING
     
     print('\nLIWC type:', liwc_type, '\n')
     
@@ -137,6 +137,7 @@ def fully_connected_layers(h0_, hidden_dims, activation=tf.tanh,
 
         # Add dropout after each hidden layer.
         if dropout_rate > 0:
+            print('dropout rate:', dropout_rate)
             h_ = tf.layers.dropout(h_, rate=dropout_rate, training=is_training)  
     return h_
 
