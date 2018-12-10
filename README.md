@@ -7,12 +7,26 @@ ISOT
 LIAR
 LIWC
 
-# Naive Bayes
+*PreProcess*
 
+# Baselines:  Human and Naive Bayes
 
+Human == Human*
+Naive Bayes == NB*
 
 # Neural Bag of Words
 
+*NBOW*
+*Neural_BOW*
+
 # CNN
 
-# Char LSTM
+*CNN*
+
+# Character ngram Keras/LSTM
+
+*Char*
+
+# Papers/Results (Not all captured)
+
+Results*
