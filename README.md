@@ -9,7 +9,7 @@ Dev data sets for both ISOT and LIAR are included as .csv files
 
 GloVe embeddings, LIWC, and part of speech tagging are available upon request
 
-Code for preprocessing is in files of the form*PreProcess*
+Code for preprocessing is in files of the form * *PreProcess* *
 
 # Baselines:  Human and Naive Bayes
 
@@ -19,7 +19,7 @@ The Naive Bayes baselines can be found in the files matching *NB_*
 
 # Neural Bag of Words
 
-Neural Bag of words models match the patterns *NBOW_* and *Neural_BOW*
+Neural Bag of words models match the patterns *NBOW_*, *NeuralBOW_* and *Neural_BOW*
 
 # CNN
 
@@ -27,7 +27,7 @@ CNN models match the pattern *CNN_*
 
 # Character ngram Keras/LSTM
 
-Character-based models match the pattern *_Char*
+Character-based models match the pattern *_Char_*
 
 # Papers/Results (Not all captured)
 
